@@ -4,3 +4,4 @@ Flask-RESTX
 Flask-Cors
 gunicorn
 requests
+psycopg2-binary
