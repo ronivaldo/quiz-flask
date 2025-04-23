@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Quiz - {{ quiz.titulo }}{% endblock %}
+{% block content %}
+<div class="w-full bg-white rounded-xl shadow-lg p-6">
+    <h1 class="text-2xl font-bold text-center mb-4">{{ quiz.titulo }}</h1>
+    <div id="quiz-container">
+        <p id="question-text" class="text-lg font-medium mb-4">Carregando...</p>
+        <div id="answers" class="grid gap-3 mb-4"></div>
+        <button id="next-btn"
+                class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 rounded hidden">
+            Próxima
+        </button>
+        <p id="feedback" class="mt-3 text-center font-semibold"></p>
+    </div>
+    <div class="mt-6">
+        <div class="flex justify-between text-sm mb-1">
+            <span>Pontuação: <span id="score">0</span></span>
+            <span>Concluído: <span id="percent">0</span>%</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-3">
+            <div id="progress-bar" class="bg-green-500 h-3 rounded-full" style="width: 0%"></div>
+        </div>
+    </div>
+    <div class="mt-6 text-center">
+        <a href="{{ url_for('index') }}" class="text-blue-500 hover:underline">← Voltar ao Início</a>
+    </div>
+</div>
+<script>
+    const quizId = {{ quiz.id }};
+</script>
+<script src="{{ url_for('static', filename='quiz.js') }}"></script>
+{% endblock %}

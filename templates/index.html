@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Matérias{% endblock %}
+{% block content %}
+    <h1 class="text-2xl font-bold mb-4 text-center">Selecione a Matéria</h1>
+    <ul class="space-y-2">
+        {% for materia in materias %}
+            <li>
+                <a href="{{ url_for('lista_quizzes', mid=materia.id) }}"
+                   class="block bg-white p-4 rounded shadow hover:bg-gray-50">
+                    {{ materia.nome }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}

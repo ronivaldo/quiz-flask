@@ -1,0 +1,106 @@
+{
+  "materia": "História",
+  "quiz": "3 Poderes",
+  "perguntas": [
+    {
+      "pergunta": "O que é Democracia?",
+      "respostas": [
+        "Sistema em que um líder toma todas as decisões",
+        "Regime em que os cidadãos votam e elegem representantes",
+        "Processo de criação de leis",
+        "Método de resolver conflitos familiares"
+      ],
+      "correta": "Regime em que os cidadãos votam e elegem representantes"
+    },
+    {
+      "pergunta": "Qual é a principal função do Poder Legislativo?",
+      "respostas": [
+        "Julgar disputas",
+        "Criar e aprovar leis",
+        "Executar as decisões do governo",
+        "Organizar eventos"
+      ],
+      "correta": "Criar e aprovar leis"
+    },
+    {
+      "pergunta": "No exemplo da família da Alice, quem representa o Poder Legislativo?",
+      "respostas": [
+        "A mãe",
+        "O pai",
+        "Alice e seus irmãos",
+        "A avó"
+      ],
+      "correta": "Alice e seus irmãos"
+    },
+    {
+      "pergunta": "Qual é a principal função do Poder Executivo?",
+      "respostas": [
+        "Cumprir e executar as leis",
+        "Fazer leis",
+        "Julgar conflitos",
+        "Organizar eleições"
+      ],
+      "correta": "Cumprir e executar as leis"
+    },
+    {
+      "pergunta": "Na casa da Alice, quem representa o Poder Executivo?",
+      "respostas": [
+        "O pai",
+        "A mãe",
+        "Alice",
+        "A vizinha"
+      ],
+      "correta": "A mãe"
+    },
+    {
+      "pergunta": "Qual é a principal função do Poder Judiciário?",
+      "respostas": [
+        "Publicar leis",
+        "Executar projetos",
+        "Julgar conflitos e interpretar leis",
+        "Organizar passeios"
+      ],
+      "correta": "Julgar conflitos e interpretar leis"
+    },
+    {
+      "pergunta": "Quem exerce o papel de Judiciário na família da Alice?",
+      "respostas": [
+        "O juiz da cidade",
+        "O pai",
+        "A irmã mais velha",
+        "O tio"
+      ],
+      "correta": "O pai"
+    },
+    {
+      "pergunta": "Quando o Poder Judiciário entra em ação na casa de Alice?",
+      "respostas": [
+        "Quando precisam votar o passeio",
+        "Quando há uma briga entre os irmãos",
+        "Quando decidem o orçamento",
+        "Quando escolhem o jantar"
+      ],
+      "correta": "Quando há uma briga entre os irmãos"
+    },
+    {
+      "pergunta": "O que faz o Poder Executivo na analogia da família?",
+      "respostas": [
+        "Criar novas regras",
+        "Organizar o que foi decidido e cuidar do dinheiro",
+        "Julgar quem estava certo",
+        "Convocar assembleias"
+      ],
+      "correta": "Organizar o que foi decidido e cuidar do dinheiro"
+    },
+    {
+      "pergunta": "Qual desses não é um dos três poderes?",
+      "respostas": [
+        "Legislativo",
+        "Executivo",
+        "Judiciário",
+        "Financeiro"
+      ],
+      "correta": "Financeiro"
+    }
+  ]
+}
